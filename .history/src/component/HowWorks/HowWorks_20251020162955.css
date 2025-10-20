@@ -8,12 +8,12 @@
     width: 380px;
     padding: 30px 20px;
 }
-.Workcard:nth-child(2) {
-  background-color: var(--color-price);
+.Workcard:hover{
+    background-color: var(--color-price);
 }
 
-.Workcard:nth-child(2) .titelWork,
-.Workcard:nth-child(2) .deswork {
+.Workcard .titelWork,
+.Workcard.deswork {
   color: var(--color-white) !important;
 }
 .titelWork{

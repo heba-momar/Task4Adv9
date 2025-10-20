@@ -8,6 +8,9 @@
     width: 380px;
     padding: 30px 20px;
 }
+.Workcard:hover{
+    background-color: var(--color-price);
+}
 .Workcard:nth-child(2) {
   background-color: var(--color-price);
 }
