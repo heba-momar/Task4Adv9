@@ -1,0 +1,56 @@
+.DreamHomeContainer{
+    background: #00000080;
+  background-image: url("/src/assets/image/FindDreamHome.png"); 
+  background-size: cover; 
+  background-position: center;  
+  background-repeat:no-repeat;
+  height: 380px;
+  position: relative;
+  
+}
+.backcolor{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+.contenttext{
+position: absolute;
+top: 50%;    
+left: 50%;
+transform: translate(-50%,-50%);
+z-index: 2;
+text-align: center;
+width: 606px;
+}
+.TittelDream{
+font-family:var(--Inter-font);
+font-weight: 700;
+font-style: Bold;
+font-size: 70px;
+line-height: 56px;
+color:var(--color-white);
+}
+.desDream{
+font-family:var(--Inter-font);
+font-weight: 400;
+font-size: 30px;
+line-height: 26px;
+color:var(--color-white);
+margin-top:58px ;
+}
+@media (max-width:995px) {
+.TittelDream{
+font-size: 30px;
+}
+.desDream{
+font-size:15px;
+margin-top:15px ;
+} 
+.contenttext{
+width:340px;
+}   
+}

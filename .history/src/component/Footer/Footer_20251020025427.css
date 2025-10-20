@@ -1,0 +1,26 @@
+.Footer{
+    display: flex;
+    align-items: center;
+}
+.footer2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+.desfooter{
+font-weight: 400;
+font-size: 16px;
+color: var(--color-des);
+margin-top: 25px;
+}
+.tittel-ul{
+font-size: 20px;
+line-height: 100% !important;
+
+}
+.item-ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 16px;
+}

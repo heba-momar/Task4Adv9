@@ -1,0 +1,15 @@
+.hero {
+    height: 100vh;
+    background-color: var(--color-Nav);
+    padding-top: 89px;
+    position: relative;
+}
+.hero-container{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 120px;
+    gap: 50px;
+    height: 100%;
+    position: relative;   
+}   

@@ -1,0 +1,6 @@
+.hero {
+    height: 100vh;
+    background-color: var(--color-Nav);
+    padding-top: 89px;
+    position: relative;
+}   

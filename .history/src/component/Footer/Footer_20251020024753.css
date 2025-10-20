@@ -1,0 +1,15 @@
+.Footer{
+    display: flex;
+    align-items: center;
+}
+.footer2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;    
+}
+.desfooter{
+font-weight: 400;
+font-size: 16px;
+color: var(--color-des);
+margin-top: 25px;
+}

@@ -1,0 +1,6 @@
+.hero {
+    height: 100vh;
+    background-color: var(--blue02);
+    padding-top: 89px;
+    position: relative;
+}   

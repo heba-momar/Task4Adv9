@@ -1,0 +1,17 @@
+.tittels{
+ font-size: 39px;
+line-height: 100% !important;     
+}
+.des{
+font-size: 15px; 
+margin-top: 5px; 
+color: var(--color-des) !important;  
+}
+@media (max-width:995px) {  
+.tittels{
+font-size: 30px; 
+}
+.des{
+font-size:15px;
+}     
+}

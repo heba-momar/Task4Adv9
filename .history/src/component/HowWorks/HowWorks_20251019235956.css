@@ -1,0 +1,58 @@
+.work{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.Workcard{
+    width: 380px;
+    padding: 30px 20px;
+}
+.titelWork{
+    font-family: var(--Inter-font);
+font-weight: 600;
+font-size: 22px;
+line-height: 100%;
+color:var(--color-text);
+margin-top: 20px;
+}
+.deswork{
+ font-family: var(--Inter-font);
+ color:var( --color-des);
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+margin-top: 10px;
+}
+.Workcard#item2{
+background-color: var(--color-price);
+.titelWork .deswork{
+    color: var(--color-white);
+}
+}
+@media (max-width:1250px) {
+    .Workcard{
+    width:250px;
+}
+}
+@media (max-width:992px) {
+.work{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap:20px ;
+} 
+.Workcard{
+    width:100%;
+     padding:15px 10px;
+}
+.titelWork{
+font-size: 22px;
+margin-top: 20px;
+}
+.deswork{
+font-size: 14px;
+margin-top: 10px;
+}   
+}

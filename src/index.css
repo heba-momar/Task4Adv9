@@ -1,0 +1,85 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+:root{
+   /* Colors */
+   --color-Nav: #EFF8FF;
+   --color-text: #222222;
+   --color-button:#F5F5F5;
+     --color-price:#025595;
+    --color-des: #22222280;
+    --color-white:#FFFFFF;
+    --color-hero:#ffffffcc;
+    --color-line:#2222221A;
+    --color-black: #000000;
+
+      /* Fonts */
+      --Inter-font:"inter",sans-serif
+}
+* {
+  margin: 0;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.p-x{
+padding:94px 70px 0px 70px ;
+}
+.m-t{
+  margin-top:56px ;
+}
+.box-shadow{
+box-shadow: 0px 0px 10px 0px #0000001A;  
+}
+
+
+
+.f-s{
+font-family:var(--Inter-font);
+font-weight: 700;
+font-style: Bold;
+line-height: 80px;
+color: var(--color-text);
+}
+.f-des{
+font-family:var(--Inter-font);
+line-height: 24px;
+color: var(--color-text);
+}
+.f-70{
+  font-size:70px;
+}
+.f-14{
+  font-size:14px;
+}
+/*.f-60{
+  font-size:60px;
+}
+.f-30{
+  font-size:30px;
+}
+.f-16{
+  font-size: 16px;
+}
+.f-22{
+  font-size: 22px;
+}
+.f-18{
+  font-size:18px;
+}
+*/
+@media (max-width:990px) {
+.p-x{
+padding:63px 20px 0px 20px ;
+}
+.m-t{
+  margin-top:42px ;
+}
+.f-70{
+  font-size:30px;
+}
+/*.f-60{
+  font-size:35px;
+} 
+.f-30{
+  font-size:15px;
+} */
+}
